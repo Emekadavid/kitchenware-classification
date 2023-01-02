@@ -26,3 +26,6 @@ The model was trained on tensorflow with a pre-trained convolutional network (CN
 
 You can find all this information on the `notebook-kitcheware.ipynb` file in the repo.
 
+## Python Script
+
+TBC
