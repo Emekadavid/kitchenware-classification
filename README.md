@@ -28,4 +28,8 @@ You can find all this information on the `notebook-kitcheware.ipynb` file in the
 
 ## Python Script
 
+The python script for building the model is found in the `train.py` file. A full run down of the activities carried out for training is found in the `notebook-kitchenware.ipynb` file. The script only has the essential steps for producing the best model. 
+
+## Model Deployment
+
 TBC
