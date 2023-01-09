@@ -32,4 +32,4 @@ The python script for building the model is found in the `train.py` file. A full
 
 ## Model Deployment
 
-TBC
+To kickoff model deployment, I first converted the tensorflow kitchenware classification model, `xception_vlarge2_31_0.968.h5` to a tensorflow lite model, `kitchenware_model.tflite`. This is to make it possible to make a lightweight Docker image and also to use it in the streamlit app. Also, this model will be used in the flask app for local deployment. 
