@@ -40,3 +40,39 @@ The model will then be deployed on flask locally and a Docker image built for de
 
 ### Flask deployment
 
+To deploy on flask, you need to have a virtual environment. I used pipenv. If you don't have pipenv, you can install it with this command:
+
+``` pip install pipenv ```
+
+Then create the environment by first navigating to the directory of our project. When there, run this pipenv command:
+
+``` pipenv shell ```
+
+You are immediately in a virtual environment for the project. 
+
+Next is to install the packages or dependencies you need for the project to run. 
+
+``` pipenv install -r requirements.txt ```
+
+Then you need to run the server. 
+
+If on a linux machine, use this command:
+
+``` gunicorn --bind 0.0.0.0:9696 predict:app ``` 
+
+But if on a windows machine, use this command:
+
+``` waitress-serve --listen=0.0.0.0:9696 predict:app ```
+
+The next thing to do is to open a second terminal, enter the virtual environment using ``` pipenv shell ```. Then, run the test file:
+
+``` python3 test.py ```
+
+That's all. You have run the project locally on a flask server. 
+
+### Building a Docker image
+
+You need a Docker image to deploy it to the cloud like AWS or Heroku. 
+
+TBC
+
