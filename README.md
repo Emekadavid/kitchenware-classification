@@ -1,5 +1,7 @@
 # Kitchenware Classification
 
+![Kitchenware items image](./images/kitchenware_image_full.jpg))
+
 This is a project that is organized by [Datatalks.Club](https://datatalks.club/). In this competition, one has to train a deep learning model in tensorflow or pytorch to classify kitchenware items. I used tensorflow and keras for this task. The kitchenware items are:
 - cups
 - glasses
