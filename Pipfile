@@ -8,6 +8,8 @@ numpy = "*"
 tflite-runtime = "*"
 requests = "*"
 keras-image-helper = "*"
+gunicorn = "*"
+flask = "*"
 
 [dev-packages]
 

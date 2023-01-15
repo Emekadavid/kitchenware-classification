@@ -56,6 +56,8 @@ Next is to install the packages or dependencies you need for the project to run.
 
 ``` pipenv install -r requirements.txt ```
 
+The requirements file was built in virtual environment using `pipenv requirements > requirements.txt` in case you want to build it later. 
+
 Then you need to run the server. 
 
 If on a linux machine, use this command:
@@ -75,6 +77,30 @@ That's all. You have run the project locally on a flask server.
 ### Building a Docker image
 
 You need a Docker image to deploy it to the cloud like AWS or Heroku. 
+
+I created the Docker image using a WSL Ubuntu 20.04 LTS. But you can reproduce it on any machine. 
+
+First, because my system was python 3.8, I installed the python image file for my system from Docker hub through this command:
+
+``` docker run -it --rm python:3.8.10-slim ```
+
+I then wrote the Dockerfile. You can find the code for building it in the file named ` Dockerfile `. 
+
+Then ran this command to build the Dockerfile. Make sure you are in the directory of the project before building the Dockerfile so it can see it. 
+
+``` docker build -t kitchenware . ```
+
+The tag name given to the image is ` kitchenware ` while the period represents that the Dockerfile is in the current directory. 
+
+The building process takes some time. So be patient. 
+
+When the building process is complete, you can then run the image using the following command:
+
+``` docker run -it -p 9696:9696 kitchenware:latest ```
+
+After that open another terminal and run the test.py file. 
+
+### Deploying on streamlit
 
 TBC
 
