@@ -11,7 +11,7 @@ def preprocess_input(x):
 
 def inference(X_input):
     # we get the model
-    interpreter = tflite.Interpreter(model_path='../kitchenware_model.tflite')
+    interpreter = tflite.Interpreter(model_path='./kitchenware_model.tflite')
     # then the weights
     interpreter.allocate_tensors()
 
