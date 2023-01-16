@@ -32,7 +32,7 @@ def inference(X_input):
 st.write("<h1 class='text-center'>The Kitchenware Classification App</h1>", unsafe_allow_html=True)
 # get our header file
 filepath = os.path.join(".", "images", "kitchenware_image_full.jpg")
-st.image(filepath)
+st.image(filepath, use_column_width=True)
 st.write("The kitchenware classification app takes an image of a kitchenware item that falls into one of the following 6 classes: cups, glasses, plates, spoons, forks or knives.")
 st.write("You have to upload the image and then press the submit button. The app will then make a prediction on the images you uploaded.")
 st.write("I downloaded some images from Google. You can use the images in the Google drive by clicking the link below. Just download a file from the folder and upload it by clicking the Browse files button. Or if you choose, you can search for an image that falls into any of the six classes and use your own image.")
