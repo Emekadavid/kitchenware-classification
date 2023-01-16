@@ -102,5 +102,11 @@ After that open another terminal and run the test.py file.
 
 ### Deploying on streamlit
 
-TBC
+The model is successfully deployed as a Streamlit app. Here is the URL of the Kitchenware Classification App on Streamlit:
+
+[Kitchenware Classification app on streamlit](https://emekadavid-kitchenware-classification-streamlitapp-2peebx.streamlit.app/)
+
+I hope you play with the app and give me feedback. 
+
+Here is a video explaining how the app works: TBC
 
