@@ -110,5 +110,5 @@ I hope you play with the app and give me feedback.
 
 Here is a video explaining how the app works. Watch it to understand how the app works before playing with the Streamlit link above. 
 
-[The Kitchenware Classification App on Streamlit](https://www.youtube.com/watch?v=kZxDwe-il20)
+[![The Kitchenware Classification App on Streamlit](https://img.youtube.com/vi/kZxDwe-il20/0.jpg)](https://www.youtube.com/watch?v=kZxDwe-il20)
 
