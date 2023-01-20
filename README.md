@@ -108,5 +108,7 @@ The model is successfully deployed as a Streamlit app. Here is the URL of the Ki
 
 I hope you play with the app and give me feedback. 
 
-Here is a video explaining how the app works: TBC
+Here is a video explaining how the app works. Watch it to understand how the app works before playing with the Streamlit link above. 
+
+[The Kitchenware Classification App on Streamlit](https://www.youtube.com/watch?v=kZxDwe-il20)
 
